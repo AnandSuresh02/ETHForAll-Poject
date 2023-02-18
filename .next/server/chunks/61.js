@@ -1300,7 +1300,7 @@ exports.normalizePathTrailingSlash = void 0;
 var _removeTrailingSlash = __webpack_require__(3297);
 var _parsePath = __webpack_require__(8854);
 const normalizePathTrailingSlash = (path)=>{
-    if (!path.startsWith("/")) {
+    if (!path.startsWith("/") || undefined) {
         return path;
     }
     const { pathname , query , hash  } = (0, _parsePath).parsePath(path);

@@ -30,3 +30,12 @@
         border-radius: 20px;
     }
 }
+@media (prefers-color-scheme: dark) {
+  .alluser_info {
+    color-scheme: dark;
+  }
+  .alluser {
+    color: white;
+    background: black;
+  }
+}

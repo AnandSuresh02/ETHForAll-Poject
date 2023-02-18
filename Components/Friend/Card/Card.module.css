@@ -29,3 +29,20 @@
     background-color: rgb(61, 168, 255);
     border-radius: 30px;
 }
+
+@media (prefers-color-scheme: dark) {
+  .Card_box,
+  .Card_box_right,
+  .Card_box_right_middle,
+  .Card_box_left, {
+    color-scheme: dark;
+  }
+  .Card_box,
+  .Card_box_right,
+  .Card_box_right_middle,
+  .Card_box_left {
+    color: white;
+    background: black;
+    background-color: black;
+  }
+}

@@ -37,3 +37,16 @@
     top: 1rem;
     color: #ffffff;
 }
+
+@media (prefers-color-scheme: dark) {
+  .UserCard,
+  .UserCard_box_img,
+  .UserCard_box_info,
+  .number {
+    color-scheme: dark;
+  }
+  .UserCard {
+    color: white;
+    background: black;
+  }
+}

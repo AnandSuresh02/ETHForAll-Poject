@@ -28,3 +28,15 @@
         border-radius: 30px;
     }
 }
+@media (prefers-color-scheme: dark) {
+  .Friend,
+  .Friend_box,
+  .Friend_box_left{
+    color-scheme: dark;
+  }
+  .Friend,
+  .Friend_box_left {
+    color: white;
+    background: black;
+  }
+}

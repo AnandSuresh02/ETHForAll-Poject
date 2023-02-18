@@ -86,3 +86,16 @@
         border-radius: 30px;
     }
 }
+@media (prefers-color-scheme: dark) {
+  .Filter,
+  .Filter_box,
+  .Filter_box_left_search,
+  .Filter_box_right,
+  .Filter_model{
+    color-scheme: dark;
+  }
+  .Filter {
+    color: white;
+    background: black;
+  }
+}

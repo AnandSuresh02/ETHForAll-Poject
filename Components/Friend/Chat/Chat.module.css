@@ -95,3 +95,22 @@
         border-radius: 30px;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+  .Chat,
+  .Chat_box,
+  .Chat_box_right,
+  .Chat_box_left,
+  .Chat_box_left_title,
+  .Chat_box_send_img,
+  .Chat_user_info,
+  .Chat_user_info_box {
+    color-scheme: dark;
+  }
+  .Chat,
+  .Chat_box,
+  .Chat_box_send_img, {
+    color: white;
+    background: black;
+  }
+}
