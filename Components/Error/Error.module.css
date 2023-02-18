@@ -8,9 +8,9 @@
     text-align: center;
     padding: 2rem;
     border-radius: 30px;
-    background: #14e730;
-    box-shadow: 5px 5px 10px #23d80b,
-    -5px -5px 10px #00ff15
+    background: #C0EEF2;
+    box-shadow: 5px 5px 10px #537FE7,
+    -5px -5px 10px #537FE7
 }
 
 @media only screen and (max-width: 35em) {
