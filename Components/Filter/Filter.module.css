@@ -18,7 +18,7 @@
     gap: 1rem;
     border-radius: 30px;
     padding-inline: 1rem;
-    background-color: rgb(0, 255, 13);
+    background-color: rgb(61, 168, 255);
     color: #000000;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .Filter_box_right button{
-    background-color: rgb(0, 255, 13);
+    background-color: rgb(61, 168, 255);
     outline: none;
     border: none;
     padding: 1rem 2rem;

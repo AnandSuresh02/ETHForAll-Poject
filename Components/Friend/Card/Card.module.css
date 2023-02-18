@@ -3,7 +3,7 @@
 .Card_box{
     display: flex;
     align-items: center;
-    background-color: rgb(83, 127, 231);
+    background-color: rgb(61, 168, 255);
     line-height: 0;
     gap: 1rem;
     padding: 1rem 0;
@@ -15,17 +15,17 @@
 .Card_box_right{
     display: flex;
     gap: 3rem;
-    background-color: rgb(83, 127, 231);
+    background-color: rgb(61, 168, 255);
     border-radius: 30px;
 }
 
 .Card_box_right_middle{
     margin-top: -1.2rem;
-    background-color: rgb(83, 127, 231);
+    background-color: rgb(61, 168, 255);
     border-radius: 30px;
 }
 
 .Card_box_left{
-    background-color: rgb(83, 127, 231);
+    background-color: rgb(61, 168, 255);
     border-radius: 30px;
 }
