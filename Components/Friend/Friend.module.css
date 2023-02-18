@@ -1,0 +1,30 @@
+
+.Friend{
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 30px;
+}
+
+.Friend_box{
+    display: grid;
+    grid-template-columns: 1.4fr 3fr;
+    gap: 2rem;
+    border-radius: 30px;
+}
+
+.Friend_box_left{
+    background-color: rgb(0, 255, 13);
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 35em) {
+    .Friend{
+        width: 90%;
+        border-radius: 30px;
+    }
+    .Friend_box{
+        grid-template-columns: 1fr;
+        border-radius: 30px;
+    }
+}

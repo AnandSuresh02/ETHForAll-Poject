@@ -1,0 +1,31 @@
+
+
+.Card_box{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 233, 12);
+    line-height: 0;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #44aa00;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.Card_box_right{
+    display: flex;
+    gap: 3rem;
+    background-color: rgb(0, 231, 12);
+    border-radius: 30px;
+}
+
+.Card_box_right_middle{
+    margin-top: -1.2rem;
+    background-color: rgb(0, 231, 12);
+    border-radius: 30px;
+}
+
+.Card_box_left{
+    background-color: rgb(0, 233, 12);
+    border-radius: 30px;
+}

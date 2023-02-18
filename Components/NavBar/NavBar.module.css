@@ -1,0 +1,150 @@
+
+.NavBar{
+    width: 80%;
+    margin:  3rem auto;
+    position: relative;
+    border-radius: 30px;
+}
+
+.NavBar_box{
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 30px;
+}
+
+.NavBar_box_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+.NavBar_box_right_menu{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    transition:  all .3s ease-in-out;
+    border-radius: 30px;
+}
+
+.active_btn{
+    width: 100%;
+    background-color: rgb(0, 255, 13);
+    outline: none;
+    border:rgb(0, 255, 13);
+    padding: 1rem;
+    color: #000000;
+    border-radius: 30px;
+}
+
+.NavBar_box_right_connect{
+    display: flex;
+    justify-self: flex-end;
+    border-radius: 30px;
+}
+
+.NavBar_box_right_connect button{
+    background-color: rgb(0, 255, 13);
+    padding: 1rem;
+    border: none;
+    font-size: 1.1rem;
+    color: #000000;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.NavBar_box_right_close{
+    display: none;
+    border-radius: 30px;
+}
+
+.NavBar_box_right_open{
+    display: none;
+    border-radius: 30px;
+}
+
+.mobile_menu{
+    display: none;
+    border-radius: 30px;
+}
+
+.modelBox{
+    position: fixed;
+    inset: 0 0 0 0;
+    background-color: #292F3F;
+    z-index: 77777777;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 35em) {
+    .NavBar{
+        width: 90%;
+        margin: 2rem auto;
+        border-radius: 30px;
+    }
+
+    .NavBar_box{
+        grid-template-columns: .6fr 2fr;
+        justify-content: space-between;
+        border-radius: 30px;
+    }
+
+    .NavBar_box_right_connect button{
+        font-size: 1rem;
+        padding: .8rem;
+        border-radius: 30px;
+    }
+
+    .NavBar_box_right_open{
+        display: block;
+        border-radius: 30px;
+    }
+
+    .NavBar_box_right_menu{
+        position: fixed;
+        z-index: 111111;
+        background-color: #292F3F;
+        width: 100%;
+        flex-direction: column;
+        height: 100vh;
+        inset: 0 0 0 0;
+        padding:  4rem;
+        display: none;
+        border-radius: 30px;
+    }
+
+    .mobile_menu{
+        display: block;
+        position: fixed;
+        z-index: 1111111;
+        background-color: #292F3F;
+        inset:  0 0 0 0;
+        text-align: center;
+        padding-top: 4rem;
+        border-radius: 30px;
+    }
+
+    .mobile_menu_items{
+        margin-top: 1rem;
+        border-radius: 30px;
+    }
+    .mobile_menu_btn{
+        padding-top: 2rem;
+        border-radius: 30px;
+    }
+
+    .modelBox{
+        position: absolute;
+        inset: 0 0 -70% 0%;
+        z-index: 11111;
+        background-color: #292F3F;
+        border-radius: 30px;
+    }
+}

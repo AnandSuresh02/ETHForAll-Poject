@@ -1,0 +1,106 @@
+
+.Model{
+    width: 85%;
+    margin: 1rem auto;
+    border-radius: 30px;
+}
+
+.Model_box{
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    align-items:  center;
+    border-radius: 30px;
+}
+
+.Model_box_right h1{
+    font-size: 3rem;
+    color: #ffffff;
+    line-height: .9;
+    border-radius: 30px;
+}
+
+.Model_box_right h1 span{
+    display: block;
+    font-size: 5rem;
+    border-radius: 30px;
+}
+
+.Model_box_right small{
+    font-size: 1.2rem;
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+.Model_box_right_name_info{
+    display: flex;
+    align-items: center;
+    margin-block: 1rem;
+    gap: 1rem;
+    background-color: rgb(0, 207, 62);
+    padding: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #000000;
+}
+
+.Model_box_right_name_info input{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #000000;
+    border-radius: 30px;
+}
+
+.Model_box_right_name_btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    border-radius: 30px;
+}
+
+.Model_box_right_name_btn button{
+    outline: none;
+    border: none;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgb(0, 206, 86);
+    padding: 1rem;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 35em) {
+    .Model{
+        width: 95%;
+        border-radius: 30px;
+    }
+    .Model_box{
+        grid-template-columns: 1fr;
+        border-radius: 30px;
+    }
+
+    .Model_box_right h1{
+        font-size: 1rem;
+        line-height: 1.2;
+        border-radius: 30px;
+    }
+
+    .Model_box_right h1 span{
+        font-size: 2.5rem;
+        border-radius: 30px;
+    }
+
+    .Model_box_right_name_btn{
+        display: grid;
+        grid-template-columns: 1fr;
+        z-index: 11111;
+        border-radius: 30px;
+    }
+}

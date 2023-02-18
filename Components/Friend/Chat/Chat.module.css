@@ -1,0 +1,97 @@
+
+.Chat{
+    padding: 2rem;
+    background-color: rgb(0, 255, 13);
+    border-radius: 30px;
+    overflow-y: scroll;
+}
+
+.Chat_box{
+    display: grid;
+    background-color: rgb(0, 255, 13);
+    grid-template-columns: 1fr;
+    height: 50vh;
+    width: 80%;
+    margin:  0 auto;
+    overflow-y: scroll;
+    border-radius: 30px;
+}
+
+.Chat_box_right p,
+.Chat_box_left p{
+    background-color: rgb(0, 238, 218);
+    padding: 1rem;
+    outline: none;
+    border-width: 2px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.Chat_box_left_title{
+    display: flex;
+    background-color: rgb(0, 255, 13);
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+
+.Chat_box_send_img{
+    display: flex;
+    background-color: rgb(0, 255, 13);
+    align-items: center;
+    gap: 1rem;
+    border-radius: 30px;
+}
+
+.Chat_box_send_img input{
+    width: 100%;
+    background-color: #00ff80;
+    outline: none;
+    border-width: 2px;
+    padding: 1rem;
+    color: #000000;
+    border-radius: 30px;
+}
+
+.Chat_user_info{
+    display: flex;
+    background-color: rgb(0, 233, 12);
+    align-items: center;
+    gap: 2rem;
+    line-height: 1;
+    border-radius: 30px;
+}
+
+.Chat_user_info_box h4,
+.Chat_user_info_box p{
+    line-height: 0;
+    background-color: rgb(0, 255, 13);
+    border: rgb(0, 255, 13);
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 35em) {
+    .Chat{
+        padding: 1rem;
+        background-color: rgb(0, 255, 13);
+        border-radius: 30px;
+    }
+
+    .Chat p{
+        font-size: .8rem;
+        background-color: rgb(0, 255, 13);
+        border-radius: 30px;
+    }
+    .Chat small{
+        font-size: .8rem;
+        background-color: rgb(0, 255, 13);
+        border-radius: 30px;
+    }
+
+    .show{
+        display: none;
+        background-color: rgb(0, 255, 13);
+        border-radius: 30px;
+    }
+}
