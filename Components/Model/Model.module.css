@@ -36,7 +36,7 @@
     align-items: center;
     margin-block: 1rem;
     gap: 1rem;
-    background-color: rgb(0, 207, 62);
+    background-color: rgb(61, 168, 255);
     padding: 1rem;
     border-radius: 30px;
     cursor: pointer;
@@ -66,7 +66,7 @@
     font-size: 1.2rem;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: rgb(0, 206, 86);
+    background-color: rgb(61, 168, 255);
     padding: 1rem;
     border-radius: 30px;
     display: flex;
