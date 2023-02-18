@@ -1,6 +1,7 @@
 
 # Decentralised Chat App
 **ETH for all Hackathon project**
+**Team Straw-Hack**
 
 
 A completely decentralised chatting application that focuses on privacy and security of the users. 
@@ -14,7 +15,7 @@ A completely decentralised chatting application that focuses on privacy and secu
 - Metamask integrated
 - Completly decentralized 
 
-## Authors
+## Team Members
 
 - [@JUDU-13](https://github.com/JUDU-13)
 - [@AnandSuresh02](https://github.com/AnandSuresh02)
@@ -23,7 +24,7 @@ A completely decentralised chatting application that focuses on privacy and secu
 
 
 ## Demo
-
+link in bio
 
 
 ## Deployment
@@ -50,7 +51,11 @@ To deploy this project run
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/79564956/205471458-4d5c76b5-6c2e-4d6c-bed2-804fd1ec0700.png)
+![image](https://user-images.githubusercontent.com/79564956/219855575-1c98d34a-1895-4ce4-9bc5-2a5dc388feff.png)
+![image](https://user-images.githubusercontent.com/79564956/219855589-ae09ac53-6b49-4ea6-842f-9c9c4ec05cd8.png)
+![image](https://user-images.githubusercontent.com/79564956/219855634-37aac158-472b-4897-9f9c-7bfd77057d46.png)
+![image](https://user-images.githubusercontent.com/79564956/219855775-1221d929-69c5-488a-903e-a5c8518d55a6.png)
+
 
 
 
