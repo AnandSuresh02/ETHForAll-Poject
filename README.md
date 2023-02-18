@@ -1,6 +1,6 @@
 
 # Decentralised Chat App
-**ETH for all Hackathon project**
+**ETH for all Hackathon project** <br>
 **Team Straw-Hack**
 
 
