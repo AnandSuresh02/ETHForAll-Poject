@@ -59,12 +59,11 @@ To deploy this project run
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/79564956/219855575-1c98d34a-1895-4ce4-9bc5-2a5dc388feff.png)
-![image](https://user-images.githubusercontent.com/79564956/219855589-ae09ac53-6b49-4ea6-842f-9c9c4ec05cd8.png)
-![image](https://user-images.githubusercontent.com/79564956/219855634-37aac158-472b-4897-9f9c-7bfd77057d46.png)
-
-
-
+![Screenshot from 2023-02-18 22-44-53](https://user-images.githubusercontent.com/95957257/219879609-363d5848-6f63-4768-8e87-a384a3c21b66.png)
+![Screenshot from 2023-02-18 22-39-35](https://user-images.githubusercontent.com/95957257/219879296-ab123f68-dc25-4267-b4f5-fda43bd14bb6.png)
+![Screenshot from 2023-02-18 22-45-38](https://user-images.githubusercontent.com/95957257/219879622-0dce9053-355b-49e6-b50a-8a020d1263ad.png)
+![Screenshot from 2023-02-18 22-39-45](https://user-images.githubusercontent.com/95957257/219879322-13dab90b-3cf9-4c90-9fbb-4c09167d5d7a.png)
+![Screenshot from 2023-02-18 22-45-29](https://user-images.githubusercontent.com/95957257/219879343-fd3a655d-4b57-4d26-a949-8a0327872b45.png)
 
 
 ## FAQ
